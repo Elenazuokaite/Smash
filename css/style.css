@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color: #4b714b; }
+
+.currentScore {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: 40px; }
+
+.col-container {
+  height: 100%;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end; }
+
+.collumn {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  background-color: #67FF6F;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px; }
+
+.eye-1 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  left: 15px;
+  border-radius: 50%;
+  background-color: #fff; }
+
+.eyedott-1 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 27px;
+  left: 22px;
+  border-radius: 50%;
+  background-color: #000; }
+
+.eye-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 15px;
+  border-radius: 50%;
+  background-color: #fff; }
+
+.eyedott-2 {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 27px;
+  right: 22px;
+  border-radius: 50%;
+  background-color: #000; }
+
+.mouth {
+  position: absolute;
+  width: 30px;
+  height: 16px;
+  top: 59px;
+  right: 35px;
+  border-radius: 50%;
+  background-color: #C24747;
+  border: 3px solid #C40505; }
+
+.overflow {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(225, 225, 225, 0.6);
+  margin: 0 auto; }
+
+.start-game {
+  position: absolute;
+  left: 50%;
+  z-index: 1000;
+  width: 300px;
+  height: 200px;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: -100px;
+  text-align: center;
+  background-color: #f55c90;
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  padding-top: 20px; }
+
+.good-game {
+  display: none;
+  position: absolute;
+  left: 50%;
+  z-index: 1000;
+  width: 300px;
+  height: 200px;
+  margin-left: -150px;
+  top: 50%;
+  margin-top: -100px;
+  text-align: center;
+  background-color: #f55c90;
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  padding-top: 20px; }
+
+button {
+  background-color: #d881e6;
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  padding: 10px; }
+
+.deadline {
+  position: absolute;
+  bottom: 500px;
+  width: 100%;
+  left: 0;
+  background-color: #EEFF00;
+  height: 10px; }
+
+/*# sourceMappingURL=style.css.map */
