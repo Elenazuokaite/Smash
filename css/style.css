@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #4b714b; }
+  background-color: #7cc8df; }
 
 .currentScore {
   display: none;
@@ -8,7 +8,7 @@ body {
   right: 20px;
   top: 20px;
   font-weight: bold;
-  color: black;
+  color: white;
   font-size: 40px; }
 
 .col-container {
@@ -26,9 +26,10 @@ body {
   width: 100px;
   height: 100px;
   margin: 0 10px;
-  background-color: #67FF6F;
+  background-color: #bebebe;
   border-top-left-radius: 50px;
-  border-top-right-radius: 50px; }
+  border-top-right-radius: 50px;
+  z-index: 100; }
 
 .eye-1 {
   position: absolute;
@@ -37,7 +38,7 @@ body {
   top: 20px;
   left: 15px;
   border-radius: 50%;
-  background-color: #fff; }
+  background-color: #141414; }
 
 .eyedott-1 {
   position: absolute;
@@ -46,7 +47,7 @@ body {
   top: 27px;
   left: 22px;
   border-radius: 50%;
-  background-color: #000; }
+  background-color: #f0ecec; }
 
 .eye-2 {
   position: absolute;
@@ -55,7 +56,7 @@ body {
   top: 20px;
   right: 15px;
   border-radius: 50%;
-  background-color: #fff; }
+  background-color: #141414; }
 
 .eyedott-2 {
   position: absolute;
@@ -64,7 +65,7 @@ body {
   top: 27px;
   right: 22px;
   border-radius: 50%;
-  background-color: #000; }
+  background-color: #c7c5c5; }
 
 .mouth {
   position: absolute;
@@ -128,7 +129,7 @@ button {
   bottom: 500px;
   width: 100%;
   left: 0;
-  background-color: #EEFF00;
+  background-color: red;
   height: 10px; }
 
 /*# sourceMappingURL=style.css.map */

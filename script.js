@@ -34,7 +34,7 @@ function growMinion() {
     }, 400);
 }
 function gameOver() {
-    minion1.style.height = minion1.style.height = minion1.style.height = "100px";
+    minion1.style.height = minion2.style.height = minion3.style.height = "100px";
     document.getElementById("gameHover").style.display = "block";
     document.getElementById("gameoverBlock").style.display = "block";
     document.getElementById("result").innerHTML = result;
@@ -51,5 +51,7 @@ function smashMinion(goblin) {
 function restartGame() {
     document.getElementById("gameHover").style.display = "none";
     document.getElementById("gameoverBlock").style.display = "none";
+    document.getElementById("currentScore").innerHTML = 0;
+    result = 0;
     init();
 }
